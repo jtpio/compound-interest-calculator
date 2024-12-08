@@ -1,39 +1,19 @@
-# Voici demo
+# Compound Interest Calculator
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://voila-dashboards.github.io/voici-demo)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jtp.io/compound-interest-calculator/voici/render/app.html)
 
-[Voici](https://github.com/voila-dashboards/voici) deployed as a static site to GitHub Pages, for demo purposes.
+Calculate and visualize compound interest growth including periodic contributions.
 
-It uses [jupyterlite-xeus](https://github.com/jupyterlite/xeus) to build the Emscripten environment, including the **xeus-python** kernel and run dependencies.
+*This tool is for information purposes only. It should not be considered as financial advice.*
 
 ## ✨ Try it in your browser ✨
 
-https://voila-dashboards.github.io/voici-demo
+https://jtpio.github.io/compound-interest-calculator/voici/render/app.html
 
-## 💡 How to make your own deployment
+![a screenshot showing the compount interest calculator app](https://github.com/user-attachments/assets/14ed647d-8256-463e-9981-9371f1ee0513)
 
-https://user-images.githubusercontent.com/21197331/223079815-0ea78df4-5173-4adc-a2e4-e10b9593a9f4.webm
+## Acknowledgments
 
-Then your site will be published under https://{USERNAME}.github.io/{DEMO_REPO_NAME}
+Design heavily inspired by https://finary.com/en/tools/compound-interests-calculator.
 
-## 📦 How to install extra packages
-
-You can pre-install extra packages by adding them to the ``environment.yml`` file.
-
-For example, if you want to create a Voici deployment with NumPy and Matplotlib pre-installed, you would need to edit the ``environment.yml`` file as following:
-
-```yml
-name: voici
-channels:
-  - https://repo.mamba.pm/emscripten-forge
-  - conda-forge
-dependencies:
-  - xeus-python
-  - numpy
-  - matplotlib
-```
-
-Only ``no-arch`` packages from ``conda-forge`` and packages from ``emscripten-forge`` can be installed.
-- **How do I know if a package is ``no-arch`` on ``conda-forge``?** ``no-arch`` means that the package is OS-independent, usually pure-python packages are ``no-arch``. To check if your package is ``no-arch`` on ``conda-forge``, check if the "Platform" entry is "no-arch" in the https://beta.mamba.pm/channels/conda-forge?tab=packages page. If your package is not ``no-arch`` but is a pure Python package, then you should probably update the feedstock to turn your package into a ``no-arch`` one.
-![](https://raw.githubusercontent.com/jupyterlite/xeus-python-demo/main/noarch.png)
-- **How do I know if my package is on ``emscripten-forge``?** You can see the list of packages pubished on ``emscripten-forge`` [here](https://beta.mamba.pm/channels/emscripten-forge?tab=packages). In case your package is missing, or it's not up-to-date, feel free to open an issue or a PR on https://github.com/emscripten-forge/recipes.
+Built with [Jupyter Notebook](https://github.com/jupyter/notebook), [ipywidgets](https://github.com/jupyter-widgets/ipywidgets) and [ipecharts](https://github.com/trungleduc/ipecharts).
