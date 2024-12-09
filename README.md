@@ -12,6 +12,22 @@ https://jtpio.github.io/compound-interest-calculator/voici/render/app.html
 
 ![a screenshot showing the compount interest calculator app](https://github.com/user-attachments/assets/14ed647d-8256-463e-9981-9371f1ee0513)
 
+## Run locally
+
+It is also possible to run the app locally in JupyterLab and with Voila.
+
+With [pixi](https://pixi.sh), open JupyterLab with:
+
+```bash
+pixi run jupyter lab content/app.ipynb
+```
+
+To render with Voila:
+
+```bash
+pixi run voila content/app.ipynb
+```
+
 ## Acknowledgments
 
 Design heavily inspired by https://finary.com/en/tools/compound-interests-calculator.
