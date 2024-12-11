@@ -10,7 +10,7 @@ Calculate and visualize compound interest growth including periodic contribution
 
 https://jtpio.github.io/compound-interest-calculator/voici/render/app.html
 
-![a screenshot showing the compount interest calculator app](https://github.com/user-attachments/assets/14ed647d-8256-463e-9981-9371f1ee0513)
+![a screenshot showing the compount interest calculator app](./screenshot.png)
 
 ## Run locally
 
